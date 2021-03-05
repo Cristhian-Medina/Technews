@@ -359,9 +359,17 @@ li {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
   .grid4 {
     grid-template-columns: 1fr;
+  }
+
+  .bar {
+    position: fixed;
+  }
+
+  .header {
+    padding-top: 50px;
   }
 
   .social-menu li {
