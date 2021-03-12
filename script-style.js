@@ -4,6 +4,7 @@ let searchIcon = document.getElementById('searchIcon').addEventListener('click',
 
 let burgerBtn = document.getElementById('burgerBtn').addEventListener('click', () => {
   let sidebar = document.getElementById('sidebar').classList.toggle('show-sidebar');
+  burgerBtn = document.getElementById('burgerBtn').classList.toggle('i-menu');
 });
 
 ScrollReveal().reveal('.header');
