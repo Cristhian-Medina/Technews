@@ -3,7 +3,7 @@
   --color-dark: #000;
   --color-light: #fff;
   --color-trans-light: #fffa;
-  --color-primary: #ae2739;
+  --color-primary: #fd1634;
   --color-trans-primary: #fd1634aa;
   --color-terciary: #1c1616;
   --color-trans-terciary: #1c1616dd;
@@ -16,7 +16,6 @@
   --fs-middle: 1.5rem;
   --fs-text: 1rem;
   --fs-small: 0.7rem;
-  scroll-behavior: smooth;
 }
 
 /* caja - display - fuente - color */
@@ -76,11 +75,6 @@ li {
   border-bottom: 2px solid var(--color-light);
 }
 
-.link .i-angle-double-right {
-  height: 15px;
-  width: 15px;
-}
-
 .btn {
   padding: 10px 50px;
   border: 1px solid var(--color-light);
@@ -118,46 +112,6 @@ li {
   gap: 20px;
 }
 
-/* ICONS */
-.i-close {
-  width: 30px;
-  height: 100%;
-  background: url(icon/times-solid.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.i-menu {
-  width: 30px;
-  height: 100%;
-  background: url(icon/bars-solid.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.i-search {
-  display: block;
-  width: 20px;
-  height: 20px;
-  background: url(icon/search-solid.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.i-angle-double-right {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background: url(icon/angle-double-right-solid.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  vertical-align: sub;
-}
-
 /* NAVBAR */
 .logo {
   height: inherit;
@@ -166,11 +120,9 @@ li {
 .menu {
   display: flex;
   gap: 20px;
-  color: var(--color-light);
 }
 
 .menu-item a:hover {
-  color: var(--color-primary);
   padding-bottom: 4px;
   border-bottom: 2px solid var(--color-primary);
 }
@@ -187,7 +139,7 @@ li {
   right: 15px;
   margin-right: 10px;
   padding: 5px;
-  border: 1px solid var(--color-light);
+  border: 1px solid var(--color-primary);
   border-radius: 5px;
   background-color: var(--color-dark);
   color: var(--color-primary);
@@ -202,9 +154,11 @@ li {
 .burger-menu {
   display: none;
   position: absolute;
+  top: 7px;
   right: 50px;
   z-index: 10;
   cursor: pointer;
+  font-size: var(--fs-title);
 }
 
 .show-sidebar {
@@ -226,7 +180,7 @@ li {
   align-items: center;
   justify-content: flex-end;
   text-align: center;
-  background: url(img/spacex-starship.jpeg) no-repeat center center/cover;
+  background: url(img/showcase2.jpeg) no-repeat center center/cover;
 }
 
 /* MAIN - CARD*/
@@ -304,36 +258,6 @@ li {
   margin: 0 20px;
 }
 
-.i-linkedin {
-  display: inline-block;
-  width: 2rem;
-  height: 2rem;
-  background: url(icon/linkedin.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.i-twitter {
-  display: inline-block;
-  width: 2rem;
-  height: 2rem;
-  background: url(icon/twitter.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.i-github {
-  display: inline-block;
-  width: 2rem;
-  height: 2rem;
-  background: url(icon/github.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
 /* FOOTER */
 .footer {
   background-color: var(--color-trans-terciary);
@@ -362,13 +286,9 @@ li {
 }
 
 .footer-copyright {
-  height: 50px;
-  width: 100%;
-  text-align: center;
-  line-height: 50px;
-  font-size: var(--fs-small);
+  justify-content: center;
+  font-size: var(--fs-text);
   color: var(--color-trans-primary);
-  background-color: var(--color-terciary);
 }
 
 /* MEDIA QUERYS */
@@ -394,10 +314,6 @@ li {
     margin-right: 50px;
   }
 
-  .bar {
-    position: fixed;
-  }
-
   .burger-menu {
     display: block;
   }
@@ -419,6 +335,10 @@ li {
 @media screen and (max-width: 780px) {
   :root {
     font-size: 16px;
+  }
+
+  body {
+    background-color: green;
   }
 
   .space-sides {
@@ -444,30 +364,12 @@ li {
     grid-template-columns: 1fr;
   }
 
-  .footer-links {
-    grid-template-columns: repeat(2, 1fr);
+  .bar {
+    position: fixed;
   }
 
   .header {
     padding-top: 50px;
-  }
-
-  .showcase {
-    padding: 0 0 20px;
-  }
-
-  .banner {
-  height: 400px;
-  }
-
-  .banner-content {
-    width: 100%;
-    padding-left: 0px;
-    justify-content: flex-end;
-  }
-
-  .banner .btn {
-    padding: 10px 20px;
   }
 
   .social-menu li {
