@@ -1,285 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
-    <!-- Fonts: Lato regular, Lato bold, Oswald regular -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>News</title>
-  </head>
 
-  <body>
-    <nav class="nav bar space-sides">
-      <img class="logo" src="img/brand.png" alt="logo" />
-      <ul class="menu sidebar" id="sidebar">
-        <li class="menu-item">
-          <a href="#news_web_artificial_startup">Web Development</a>
-        </li>
-        <li class="menu-item">
-          <a href="#news_blockchain_machine_computing">Blockchain</a>
-        </li>
-        <li class="menu-item">
-          <a href="#news_web_artificial_startup">Artificial Intelligence</a>
-        </li>
-        <li class="menu-item">
-          <a href="#news_blockchain_machine_computing">Machine Learning</a>
-        </li>
-        <li class="menu-item">
-          <a href="#news_blockchain_machine_computing">Quantum Computing</a>
-        </li>
-        <li class="menu-item">
-          <a href="#news_web_artificial_startup">Startup</a>
-        </li>
-        <li class="menu-item"><a href="#">More</a></li>
-      </ul>
-      <div class="search-container">
-        <input class="search" id="searchBar" type="text" name="search" />
-        <a
-          href="#"
-          class="search-icon fa fa-angle-double-up fa-search"
-          id="searchIcon"
-        ></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Fonts: Lato regular, Lato bold, Oswald regular -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald&display=swap" />
+  <link rel="stylesheet" href="style.css" />
+  <title>News</title>
+</head>
+
+<body>
+  <nav class="nav bar space-sides">
+    <img class="logo" src="img/brand.png" alt="logo" />
+    <ul class="menu sidebar" id="sidebar">
+      <li class="menu-item">
+        <a href="#news_web_artificial_startup">Consumer Tech</a>
+      </li>
+      <li class="menu-item">
+        <a href="#news_blockchain_machine_computing">Future of Transportation</a>
+      </li>
+      <li class="menu-item">
+        <a href="#news_web_artificial_startup">Innovations</a>
+      </li>
+      <li class="menu-item">
+        <a href="#news_blockchain_machine_computing">Internet Culture</a>
+      </li>
+      <li class="menu-item">
+        <a href="#news_blockchain_machine_computing">Space</a>
+      </li>
+      <li class="menu-item">
+        <a href="#news_web_artificial_startup">Tech Policy</a>
+      </li>
+      <li class="menu-item"><a href="#">Video Gaming</a></li>
+    </ul>
+    <div class="search-container">
+      <input class="search" id="searchBar" type="text" name="search" />
+      <a href="#" class="search-icon i-search" id="searchIcon"></a>
+    </div>
+    <div class="burger-menu i-close i-menu" id="burgerBtn"></div>
+  </nav>
+
+  <header class="header space-sides">
+    <div class="showcase">
+      <h2 class="title">
+        Elon Musk’s SpaceX Starship rocket lands successfully but then
+        explodes
+      </h2>
+      <p class="mb10">
+        The SN 10 prototype nearly pulled off a perfect test, as SpaceX pushes
+        to flying to the moon and Mars.
+      </p>
+      <a href="https://www.washingtonpost.com/technology/2021/03/03/spacex-starship-test-sn10/" target="_blank" class="btn">
+        Read More <i class="i-angle-double-right"></i>
+      </a>
+    </div>
+  </header>
+
+  <main class="main space-sides">
+    <section class="grid4 mt40" id="news_web_artificial_startup">
+      <div class="card">
+        <img src="img/news1.jpeg" class="card-image" alt="news" />
+        <div class="card-body">
+          <h3 class="card-title">
+            Fever-scanner company pulls device off market following FDA warning
+          </h3>
+          <p>
+            The company, Certify Global, was among the seven manufacturers tested
+            in research first reported by The Washington Post that raised questions
+            about their effectiveness in scanning for covid infections
+          </p>
+          <a href="https://www.washingtonpost.com/technology/2021/03/05/fever-scanner-certify-fda/" target="_blank" class="link">
+            Read More <i class="i-angle-double-right"></i>
+          </a>
+        </div>
       </div>
-      <div class="burger-menu fa fa-bars" id="burgerBtn"></div>
-    </nav>
+      <div class="card">
+        <img src="img/news2.jpeg" class="card-image" alt="news" />
+        <div class="card-body">
+          <h3 class="card-title">
+            One innovation we won’t be seeing soon: Over-the-air charging
+          </h3>
+          <p>
+            Several companies have demonstrated over-the-air charging for smartphones,
+            but none are trying to sell it
+          </p>
+          <a href="https://www.washingtonpost.com/technology/2021/03/05/wireless-charging-over-the-air/" target="_blank" class="link">
+            Read More <i class="i-angle-double-right"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/vr-headset.webp" class="card-image" alt="news" />
+        <div class="card-body">
+          <h3 class="card-title">
+            HP's Reverb G2 is the ultimate headset for sim racing in VR
+          </h3>
+          <p>
+            Want to try out virtual reality sim racing but worried about 
+            things being blurry? HP's latest headset is the fix.
+          </p>
+          <a href="https://www.cnet.com/roadshow/news/hp-reverb-g2-iracing/" target="_blank" class="link">
+            Read More <i class="i-angle-double-right"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/news4.jpeg" class="card-image" alt="news" />
+        <div class="card-body">
+          <h3 class="card-title">Lorem, ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
+            recusandae non ex in, aliquid modi. Nobis ad voluptate
+            dignissimos. Culpa.
+          </p>
+          <a href="#" target="_blank" class="link">
+            Read More <i class="i-angle-double-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
 
-    <header class="header space-sides">
-      <div class="showcase">
-        <h2 class="title">Big News Today</h2>
+    <section class="banner banner-one mt40">
+      <div class="banner-content">
+        <h2 class="title">Lorem ipsum dolor sit.</h2>
         <p class="mb10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo libero
-          hic repellat numquam molestiae est ad, mollitia reiciendis atque,
-          quasi voluptatibus odio alias, in eos molestias excepturi magni
-          officia beatae?
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+          quam modi maiores nemo incidunt esse. Quod aliquam inventore nihil
+          ratione?
         </p>
-        <a href="#" class="btn"
-          >Read More <i class="fa fa-angle-double-right"></i
-        ></a>
+        <a href="#" target="_blank" class="btn">
+          Read More <i class="i-angle-double-right"></i>
+        </a>
       </div>
-    </header>
+    </section>
 
-    <main class="main space-sides">
-      <section class="grid4 mt40" id="news_web_artificial_startup">
-        <div class="card">
-          <img src="img/news1.jpeg" class="card-image" alt="news" />
-          <div class="card-body">
-            <h3 class="card-title">
-              Lorem, ipsum dolor. nvusi rbn viruf bnñofitñoit
-            </h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
-              recusandae non ex in, aliquid modi. Nobis ad voluptate
-              dignissimos. Culpa.
-            </p>
-            <a href="#" class="link"
-              >Read More <i class="fa fa-angle-double-right"></i
-            ></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="img/news2.jpeg" class="card-image" alt="news" />
-          <div class="card-body">
-            <h3 class="card-title">Lorem, ipsum dolor.</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
-              recusandae non ex in, aliquid modi. Nobis ad voluptate
-              dignissimos. Culpa.
-            </p>
-            <a href="#" class="link"
-              >Read More <i class="fa fa-angle-double-right"></i
-            ></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="img/news3.jpeg" class="card-image" alt="news" />
-          <div class="card-body">
-            <h3 class="card-title">Lorem, ipsum dolor.</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
-              recusandae non ex in, aliquid modi. Nobis ad voluptate
-              dignissimos. Culpa.
-            </p>
-            <a href="#" class="link"
-              >Read More <i class="fa fa-angle-double-right"></i
-            ></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="img/news4.jpeg" class="card-image" alt="news" />
-          <div class="card-body">
-            <h3 class="card-title">Lorem, ipsum dolor.</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
-              recusandae non ex in, aliquid modi. Nobis ad voluptate
-              dignissimos. Culpa.
-            </p>
-            <a href="#" class="link"
-              >Read More <i class="fa fa-angle-double-right"></i
-            ></a>
-          </div>
-        </div>
-      </section>
-
-      <section class="banner banner-one mt40">
-        <div class="banner-content">
-          <h2 class="title">Lorem ipsum dolor sit.</h2>
-          <p class="mb10">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            quam modi maiores nemo incidunt esse. Quod aliquam inventore nihil
-            ratione?
+    <section class="grid4 mt40 mt40" id="news_blockchain_machine_computing">
+      <div class="card">
+        <img src="img/news2.jpeg" class="card-image" alt="news" />
+        <div class="card-body">
+          <h3 class="card-title">Lorem, ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
+            recusandae non ex in, aliquid modi. Nobis ad voluptate
+            dignissimos. Culpa.
           </p>
-          <a href="#" class="btn"
-            >Read More <i class="fa fa-angle-double-right"></i
-          ></a>
+          <a href="#" target="_blank" class="link">
+            Read More <i class="i-angle-double-right"></i>
+          </a>
         </div>
-      </section>
-
-      <section class="grid4 mt40 mt40" id="news_blockchain_machine_computing">
-        <div class="card">
-          <img src="img/news2.jpeg" class="card-image" alt="news" />
-          <div class="card-body">
-            <h3 class="card-title">Lorem, ipsum dolor.</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
-              recusandae non ex in, aliquid modi. Nobis ad voluptate
-              dignissimos. Culpa.
-            </p>
-            <a href="#" class="link"
-              >Read More <i class="fa fa-angle-double-right"></i
-            ></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="img/news4.jpeg" class="card-image" alt="news" />
-          <div class="card-body">
-            <h3 class="card-title">Lorem, ipsum dolor.</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
-              recusandae non ex in, aliquid modi. Nobis ad voluptate
-              dignissimos. Culpa.
-            </p>
-            <a href="#" class="link"
-              >Read More <i class="fa fa-angle-double-right"></i
-            ></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="img/news1.jpeg" class="card-image" alt="news" />
-          <div class="card-body">
-            <h3 class="card-title">
-              Lorem, ipsum dolor. nvusi rbn viruf bnñofitñoit
-            </h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
-              recusandae non ex in, aliquid modi. Nobis ad voluptate
-              dignissimos. Culpa.
-            </p>
-            <a href="#" class="link"
-              >Read More <i class="fa fa-angle-double-right"></i
-            ></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="img/news3.jpeg" class="card-image" alt="news" />
-          <div class="card-body">
-            <h3 class="card-title">Lorem, ipsum dolor.</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
-              recusandae non ex in, aliquid modi. Nobis ad voluptate
-              dignissimos. Culpa.
-            </p>
-            <a href="#" class="link"
-              >Read More <i class="fa fa-angle-double-right"></i
-            ></a>
-          </div>
-        </div>
-      </section>
-
-      <section class="banner banner-two mt40">
-        <div class="banner-content">
-          <h2 class="title">Lorem ipsum dolor sit.</h2>
-          <p class="mb10">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            quam modi maiores nemo incidunt esse. Quod aliquam inventore nihil
-            ratione?
+      </div>
+      <div class="card">
+        <img src="img/news4.jpeg" class="card-image" alt="news" />
+        <div class="card-body">
+          <h3 class="card-title">Lorem, ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
+            recusandae non ex in, aliquid modi. Nobis ad voluptate
+            dignissimos. Culpa.
           </p>
-          <a href="#" class="btn"
-            >Read More <i class="fa fa-angle-double-right"></i
-          ></a>
+          <a href="#" target="_blank" class="link">
+            Read More <i class="i-angle-double-right"></i>
+          </a>
         </div>
-      </section>
-
-      <section class="social mt40">
-        <h2 class="title">Follow Us</h2>
-        <ul class="social-menu menu">
-          <li><a href="#" class="fab fa-facebook-square"></a></li>
-          <li><a href="#" class="fab fa-twitter"></a></li>
-          <li><a href="#" class="fab fa-linkedin"></a></li>
-          <li><a href="#" class="fab fa-codepen"></a></li>
-        </ul>
-      </section>
-    </main>
-
-    <footer class="footer mt40">
-      <div class="footer-links grid4 space-sides">
-        <ul>
-          <li>
-            <h3>Recent News</h3>
-          </li>
-          <li><a href="#">Web Development</a></li>
-          <li><a href="#">Blockchain</a></li>
-          <li><a href="#">Artificial Intelligence</a></li>
-          <li><a href="#">Machine Learning</a></li>
-          <li><a href="#">Quantum Computing</a></li>
-          <li><a href="#">Startup</a></li>
-        </ul>
-        <ul>
-          <li>
-            <h3>Latest News</h3>
-          </li>
-          <li><a href="#">Web Development</a></li>
-          <li><a href="#">Blockchain</a></li>
-          <li><a href="#">Artificial Intelligence</a></li>
-          <li><a href="#">Machine Learning</a></li>
-          <li><a href="#">Quantum Computing</a></li>
-          <li><a href="#">Startup</a></li>
-        </ul>
-        <ul>
-          <li>
-            <h3>More</h3>
-          </li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Status</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-        <ul>
-          <li>
-            <h3>Support</h3>
-          </li>
-          <li><a href="#">Troubleshooting</a></li>
-          <li><a href="#">Common Questions</a></li>
-          <li><a href="#">Report a Bug</a></li>
-          <li><a href="#">Get Help</a></li>
-        </ul>
       </div>
-      <div class="footer-copyright bar space-sides">
-        <h3>Cristhian Medina Copyright</h3>
+      <div class="card">
+        <img src="img/news1.jpeg" class="card-image" alt="news" />
+        <div class="card-body">
+          <h3 class="card-title">
+            Lorem, ipsum dolor. nvusi rbn viruf bnñofitñoit
+          </h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
+            recusandae non ex in, aliquid modi. Nobis ad voluptate
+            dignissimos. Culpa.
+          </p>
+          <a href="#" target="_blank" class="link">
+            Read More <i class="i-angle-double-right"></i>
+          </a>
+        </div>
       </div>
-    </footer>
+      <div class="card">
+        <img src="img/news3.jpeg" class="card-image" alt="news" />
+        <div class="card-body">
+          <h3 class="card-title">Lorem, ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
+            recusandae non ex in, aliquid modi. Nobis ad voluptate
+            dignissimos. Culpa.
+          </p>
+          <a href="#" target="_blank" class="link">
+            Read More <i class="i-angle-double-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
 
-    <!-- Scroll Reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- SCRIPTS -->
-    <script src="script-style.js"></script>
-    <script src="main.js"></script>
-  </body>
+    <section class="banner banner-two mt40">
+      <div class="banner-content">
+        <h2 class="title">Lorem ipsum dolor sit.</h2>
+        <p class="mb10">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+          quam modi maiores nemo incidunt esse. Quod aliquam inventore nihil
+          ratione?
+        </p>
+        <a href="#" class="btn">
+          Read More <i class="i-angle-double-right"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="social mt40">
+      <h2 class="title">Follow Us</h2>
+      <ul class="social-menu menu">
+        <li><a href="#" class="i-twitter"></a></li>
+        <li><a href="#" class="i-linkedin"></a></li>
+        <li><a href="#" class="i-github"></a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer mt40">
+    <div class="footer-links grid4 space-sides">
+      <ul>
+        <li>
+          <h3>Recent News</h3>
+        </li>
+        <li><a href="#">Web Development</a></li>
+        <li><a href="#">Blockchain</a></li>
+        <li><a href="#">Artificial Intelligence</a></li>
+        <li><a href="#">Machine Learning</a></li>
+        <li><a href="#">Quantum Computing</a></li>
+        <li><a href="#">Startup</a></li>
+      </ul>
+      <ul>
+        <li>
+          <h3>Latest News</h3>
+        </li>
+        <li><a href="#">Web Development</a></li>
+        <li><a href="#">Blockchain</a></li>
+        <li><a href="#">Artificial Intelligence</a></li>
+        <li><a href="#">Machine Learning</a></li>
+        <li><a href="#">Quantum Computing</a></li>
+        <li><a href="#">Startup</a></li>
+      </ul>
+      <ul>
+        <li>
+          <h3>More</h3>
+        </li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Status</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <ul>
+        <li>
+          <h3>Support</h3>
+        </li>
+        <li><a href="#">Troubleshooting</a></li>
+        <li><a href="#">Common Questions</a></li>
+        <li><a href="#">Report a Bug</a></li>
+        <li><a href="#">Get Help</a></li>
+      </ul>
+    </div>
+    <div class="footer-copyright space-sides">
+      <h3>CSMC Copyright 2021</h3>
+    </div>
+  </footer>
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- SCRIPTS -->
+  <script src="script-style.js"></script>
+  <script src="main.js"></script>
+</body>
+
 </html>
